@@ -154,6 +154,7 @@ while essais > 0:
                     /findnumber     = Jeu de nombre.
                     /randomcolor    = couleur attribuée aléatoirement.
                     /randomname     = imprimer un nom aléatoire.
+                    /spam           = spammer la donnée entrée.
                     /taskkill       = Tuer un programme en cours.
                     /timer          = Timer.
                     """
