@@ -166,15 +166,6 @@ while essais > 0:
                     random.choice(liste_color)
                     os.system(f'color {liste_color}')
 
-                def spam_text(text, count):
-                    for _ in range(count):
-                        keyboard.write(text)
-                        keyboard.press_and_release('enter')
-
-                # Paramètres
-                texte_a_envoyer = input('Spam > ')
-                nombre_de_messages = input('Combien de fois > ')
-
                 def taskkill():
                     print("Entrez le nom de l'application à tuer + .exe")
                     kill_tache = input('')
@@ -252,9 +243,6 @@ while essais > 0:
 
                     # Afficher le prénom aléatoire
                     print("Prénom aléatoire choisi :", prenom_aleatoire)
-
-                elif commande == "/spam":
-                    spam_text(texte_a_envoyer, nombre_de_messages)
 
                 elif commande == '/taskkill':
                     taskkill()
