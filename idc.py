@@ -229,6 +229,10 @@ while essais > 0:
                     echo = input("")
                     os.system(f"echo {echo}")
 
+                elif commande == '/easter':
+                    print("")
+                    # Not finish
+
                 elif commande == '/fichier':
                     create_fichier()
                 
